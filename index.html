@@ -5,206 +5,102 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="Description" content="Luis Abellan's Portfolio.">
+  <meta name="Description" content="JS Documentation">
 
   <link rel="stylesheet" href="./style.css" />
   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Cabin|Dosis|Exo+2|Karla&display=swap"
     rel="stylesheet" />
   <script src="https://kit.fontawesome.com/b1d1f95a5e.js" crossorigin="anonymous"></script>
 
-  <title>Luis Abellan's Portfolio</title>
+  <title>JS Documentation</title>
 </head>
 
 <body>
-  <div class="wrap-container">
-    <div class="container">
-      <header>
-        <div class="header">
-          <h1>Luis Abellan</h1>
-          <div class="img"><img class="fas fa-bars fa-2x" alt="me" /></div>
-        </div>
-
-        <nav>
-          <div class="links">
-          
-
-          <a href="#">about</a>
-          <a href="#work">projects</a>
-          <a href="#contact">contact</a>
-          <!-- <a href="https://luisabellan.heroku.com">blog</a> -->
-          </div>
-        </nav>
-      </header>
-
-      <section class="about">
-        <div class="top">
-          <img src="./images/photo.webp" alt="my photo" />
-
-          <h3>Front-End Web Developer</h3>
-          <p class="stack">HTML5 | CSS | JavaScript (ES6) | React | Node | Express | SQL | Python</p>
-
-          <p>
-            I'm Luis Abellan, a software developer from Madrid, Spain.
-            Passionate about new technologies, education, problem-solving, chess
-            and music.
-          </p>
-          <div class="social">
-            <a href="https://twitter.com/luisabellandev" class="twitter"><span><i class="fab fa-twitter"
-                  alt="twitter"></i></span></a>
-            <a href="https://github.com/luisabellan/" class="github">
-              <span><i class="fab fa-github" alt="github"></i></span></a>
-            <a href="https://www.linkedin.com/in/luis-abellan-dev/" class="linkedin">
-              <span><i class="fab fa-linkedin" alt="linkedin"></i></span></a>
-          </div>
-
-
-        </div>
-      </section>
+    <div class="wrapper">
       
-      <section id="work">
-        <h2>Projects</h2>
-        <div class="projects">
-        <div class="project">
-          <a href="https://nasa-photo-of-the-day.squarerobin.now.sh"><img src="./images/nasa1.webp"
-              alt="Nasa Photo of the Day" /></a>
-          <a href="https://nasa-photo-of-the-day.squarerobin.now.sh">
-            <h3>Nasa Photo of the Day</h3>
-          </a>
-          <p class="built-using">
-            <span>Built using: </span>React, SCSS, axios, Moment.js,
-            Styled-Components, React-DatePicker
-          </p>
-          <p class="responsibilities">
-            <span>Responsibilities: </span>Front-End engineer
-          </p>
-          <div class="description">
-            <p><i class="fas fa-star fa-xs"></i> A web app that consumes a public NASA API to show a different photo
-            every day along with a description. </p>
-            <p><i class="fas fa-star fa-xs"></i> It can also retrieve past
-            photos.</p>
-          </div>
-        </div>
+       
 
-        <div class="project">
-          <a href="https://github-usercard.squarerobin.now.sh"><img src="./images/github-card.webp"
-              alt="Github Followers" /></a>
-          <a href="https://github-usercard.squarerobin.now.sh">
-            <h3>Github Followers</h3>
-          </a>
-          <p class="built-using">
-            <span>Built using: </span>HTML5, CSS, JS, API, axios
-          </p>
-          <p class="responsibilities">
-            <span>Responsibilities: </span>Front-End engineer
-          </p>
-          <div class="description">
-            <p><i class="fas fa-star fa-xs"></i> A web app that accesses the GitHub API and builds a social card
-            based on the data we get back.</p>
-            <p><i class="fas fa-star fa-xs"></i> Created a component based on the data we get when we send a GET request to the GitHub
-            API.</p>
-          </div>
-        </div>
+      <nav id="navbar">
+        <header><h1>JS Documentation</h1></header>
+        
+        
 
-        <div class="project">
-          <a href="https://rickandmorty-squarerobin.netlify.com"><img src="./images/rickandmorty.webp"
-              alt="Rick and Morty Fan Page" /></a>
-          <a href="https://rickandmorty-squarerobin.netlify.com">
-            <h3>Ricky and Morty Fan Page</h3>
-          </a>
-          <p class="built-using"><span>Built using: </span>React, JS, SASS, Single Page Applications, React
-            Router, and React Hook Forms</p>
-          <p class="responsibilities">
-            <span>Responsibilities: </span>Front-End engineer
-          </p>
-          <div class="description">
-            <p><i class="fas fa-star fa-xs"></i> Single Page Application complete with Client-Side Routing.</p>
-            <p><i class="fas fa-star fa-xs"></i> It consumes a 3rd party API service based on the TV show.</p>
-          </div>
-        </div>
+        <a class="nav-link" href="#Basics">Basics</a>
+        <a class="nav-link"  href="#Comments">Comments</a>
+        <a class="nav-link"  href="#Declarations">Declarations</a>
+        <a class="nav-link" href="#Data_structures_and_types">Data structures and Types</a>
+        <a class="nav-link"  href="#Literals">Literals</a>
+        <a class="nav-link"  href="#More_information">More information</a>
+        
+      </nav>
 
-        <div class="project">
-          <a href="https://car-sales-brown.now.sh"><img src="./images/car-sales.webp" alt="Car Sales" /></a>
-          <a href="https://car-sales-brown.now.sh">
-            <h3>Car sales shopping cart</h3>
-          </a>
-          <p class="built-using"><span>Built using: </span>React, JS, SASS, Single Page Applications, React, Redux,
-            Bulma, Fontawesome</p>
-          <p class="responsibilities">
-            <span>Responsibilities: </span>Front-End engineer
-          </p>
-          <div class="description">
-            <p><i class="fas fa-star fa-xs"></i> Implemented Redux as the state management system.</p>
-            <p><i class="fas fa-star fa-xs"></i> Styled the app with Bulma and Fontawesome.</p>
-          </div>
-        </div>
 
-        <div class="project">
-          <a href="https://react-shopping-cart-steel.now.sh"><img src="./images/react-shopping-cart.webp"
-              alt="React Shopping Cart" /></a>
-          <a href="https://react-shopping-cart-steel.now.sh">
-            <h3>React Shopping Cart</h3>
-          </a>
+      <!-- technical docs -->
+      <main id="main-doc">
+        <section id="Basics" class="main-section">
+          <header><h2>Basics</h2></header>
+          <ul>
+          <li><p>JavaScript borrows most of its syntax from Java, C, and C++, but it has also been influenced by Awk, Perl, and Python.</p></li>
 
-          </a>
-          <p class="built-using"><span>Built using: </span>React, React Router, ContextAPI, SASS, testing-library</p>
-          <p class="responsibilities">
-            <span>Responsibilities: </span>Front-End engineer
-          </p>
-          <div class="description">
-             <p><i class="fas fa-star fa-xs"></i> Refactored e-commerce store to use Context API as the state management system.</p>
-             <p><i class="fas fa-star fa-xs"></i> Added the functionality of adding new items to the shopping cart</p>
-          </div>
-        </div>
+          <li><p>JavaScript is case-sensitive and uses the Unicode character set. For example, the word Früh (which means "early" in German) could be used as a variable name.</p></li>
 
-        <div class="project">
-          <a href="https://todoapp-squarerobin.netlify.com"><img src="./images/todo-app.webp" alt="My Todo App" /></a>
-          <a href="https://todoapp-squarerobin.netlify.com">
-            <h3>My Todo App</h3>
+          <li><code>let Früh = "foobar"</code>
 
-          </a>
-          <p class="built-using"><span>Built using: </span>React, SASS</p>
-          <p class="responsibilities">
-            <span>Responsibilities: </span>Front-End engineer
-          </p>
-          <div class="description">
-            <p><i class="fas fa-star fa-xs"></i> Simple Todo app developed in under 3 hours.
-          </div>
-        </div>
-        </div>
+          <li><p>But, the variable früh is not the same as Früh because JavaScript is case sensitive.</p></li>
 
-      </section>
+          <li><p>In JavaScript, instructions are called statements and are separated by semicolons (;).</p></li>
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true"
-          data-netlify-recaptcha="true">
-          <div class="name">
-            <p class="hidden">
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-            </p>
-            <label for="name">Name </label><input class="name" type="text" required />
-          </div>
-          <div class="email">
-            <label for="email">Email </label><input class="email" name="email" type="email" required />
+          <li><p>A semicolon is not necessary after a statement if it is written on its own line. But if more than one statement on a line is desired, then they must be separated by semicolons.</p></li>
+          </ul>
+        </section>
+        <section id="Comments" class="main-section">
+          <header>
+            <h2>Comments</h2>
+          </header>
+          The syntax of comments is the same as in C++ and in many other languages:
 
-          </div>
-          <div class="message">
-            <label for="message">Message </label>
-            <div class="text-area"><textarea name="message" id="message"></textarea></div>
-          </div>
-          <div data-netlify-recaptcha="true" class="recaptcha"></div>
-          <button>Send</button>
-        </form>
-      </section>
+          <code> // a one line comment
+        
+            /* this is a longer, 
+            * multi-line comment
+            */
+            
+            /* You can't, however, /* nest comments */ SyntaxError */
+          </code>
+          <p>Comments behave like whitespace, and are discarded during script execution.</p>
+        </section>
+        <section id="Declarations" class="main-section">
+          <header>
+            <h3>Declarations</h3>
+          </header>
+          <p>JavaScript has three kinds of variable declarations.</p>
+          <code>var</code>
+          <p></p>
+          <p>Declares a variable, optionally initializing it to a value.</p>
+          <code>let</code>
+          <p>Declares a block-scoped, local variable, optionally initializing it to a value.</p>
+          <code>const</code>
+          <p>Declares a block-scoped, read-only named constant.</p>
+        </section>
+        <section id="Data_structures_and_types" class="main-section">
+          <header>
+            <h2>Data structures and types</h2>
+          </header>
+          <p>Although these data types are relatively few, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your script can perform.</p>
+          <h3>Data type conversion</h3>
+          <p>JavaScript is a dynamically typed language. This means you don't have to specify the data type of a variable when you declare it. It also means that data types are automatically converted as-needed during script execution.</p>
+          <p>So, for example, you could define a variable as follows:</p>
 
-      <footer>
-        <noscript>
-          <p>&copy; Luis Abellan</p>
-        </noscript>
-      </footer>
+          <code>var answer = 42;</code>
+          <p></p> And later, you could assign the same variable a string value, for example:</p>
+          <code>answer = 'Thanks for all the fish...';</code>
+        </section>
+        <section id="Literals" class="main-section"><header><h2>Literals</h2></header></section>
+        <section id="More_information" class="main-section"><header><h2>More information</h2></header></section>
+      </main>
+
     </div>
-    <script src="./script.js"></script>
-  </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
