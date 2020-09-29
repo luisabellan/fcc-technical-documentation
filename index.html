@@ -5,18 +5,103 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="Description" content="Luis Abellan's Portfolio.">
+  <meta name="Description" content="JS Documentation">
 
   <link rel="stylesheet" href="./style.css" />
   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Cabin|Dosis|Exo+2|Karla&display=swap"
     rel="stylesheet" />
   <script src="https://kit.fontawesome.com/b1d1f95a5e.js" crossorigin="anonymous"></script>
 
-  <title>JS Technical Documentation</title>
+  <title>JS Documentation</title>
 </head>
 
 <body>
-  
+    <div class="wrapper">
+      
+       
+
+      <nav id="navbar">
+        <header><h1>JS Documentation</h1></header>
+        
+        
+
+        <a class="nav-link" href="#Basics">Basics</a>
+        <a class="nav-link"  href="#Comments">Comments</a>
+        <a class="nav-link"  href="#Declarations">Declarations</a>
+        <a class="nav-link" href="#Data_structures_and_types">Data structures and Types</a>
+        <a class="nav-link"  href="#Literals">Literals</a>
+        <a class="nav-link"  href="#More_information">More information</a>
+        
+      </nav>
+
+
+      <!-- technical docs -->
+      <main id="main-doc">
+        <section id="Basics" class="main-section">
+          <header><h2>Basics</h2></header>
+          <ul>
+          <li><p>JavaScript borrows most of its syntax from Java, C, and C++, but it has also been influenced by Awk, Perl, and Python.</p></li>
+
+          <li><p>JavaScript is case-sensitive and uses the Unicode character set. For example, the word Früh (which means "early" in German) could be used as a variable name.</p></li>
+
+          <li><code>let Früh = "foobar"</code>
+
+          <li><p>But, the variable früh is not the same as Früh because JavaScript is case sensitive.</p></li>
+
+          <li><p>In JavaScript, instructions are called statements and are separated by semicolons (;).</p></li>
+
+          <li><p>A semicolon is not necessary after a statement if it is written on its own line. But if more than one statement on a line is desired, then they must be separated by semicolons.</p></li>
+          </ul>
+        </section>
+        <section id="Comments" class="main-section">
+          <header>
+            <h2>Comments</h2>
+          </header>
+          The syntax of comments is the same as in C++ and in many other languages:
+
+          <code> // a one line comment
+        
+            /* this is a longer, 
+            * multi-line comment
+            */
+            
+            /* You can't, however, /* nest comments */ SyntaxError */
+          </code>
+          <p>Comments behave like whitespace, and are discarded during script execution.</p>
+        </section>
+        <section id="Declarations" class="main-section">
+          <header>
+            <h3>Declarations</h3>
+          </header>
+          <p>JavaScript has three kinds of variable declarations.</p>
+          <code>var</code>
+          <p></p>
+          <p>Declares a variable, optionally initializing it to a value.</p>
+          <code>let</code>
+          <p>Declares a block-scoped, local variable, optionally initializing it to a value.</p>
+          <code>const</code>
+          <p>Declares a block-scoped, read-only named constant.</p>
+        </section>
+        <section id="Data_structures_and_types" class="main-section">
+          <header>
+            <h2>Data structures and types</h2>
+          </header>
+          <p>Although these data types are relatively few, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your script can perform.</p>
+          <h3>Data type conversion</h3>
+          <p>JavaScript is a dynamically typed language. This means you don't have to specify the data type of a variable when you declare it. It also means that data types are automatically converted as-needed during script execution.</p>
+          <p>So, for example, you could define a variable as follows:</p>
+
+          <code>var answer = 42;</code>
+          <p></p> And later, you could assign the same variable a string value, for example:</p>
+          <code>answer = 'Thanks for all the fish...';</code>
+        </section>
+        <section id="Literals" class="main-section"><header><h2>Literals</h2></header></section>
+        <section id="More_information" class="main-section"><header><h2>More information</h2></header></section>
+      </main>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 
 </html>
