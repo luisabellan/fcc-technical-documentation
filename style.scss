@@ -171,55 +171,7 @@ html {
              
           }
   
-          nav {
-            display: flex;
-            flex-direction: column;
-  
-            @media (min-width: 600px) {
-              flex-direction: row;
-            }
-            align-items: center;
-            align-self: center;
-            .links {
-              display: flex;
-              flex-direction: column;
-              height: 100vh;
-            
-              @media (min-width: 600px) {
-                display: flex;
-                flex-direction: row;
-                height: 11vh;
-                border: none;
-              }
-              a {
-                padding: 0.5rem;
-                margin: 1rem;
-                text-decoration: none;
-                font-family: "Exo 2", sans-serif;
-                font-size: 1.3rem;
-                @media (min-width: 500px) {
-                  font-size: 1.6rem;
-                }
-                @media (min-width: 800px) {
-                  font-size: 2rem;
-                  margin-top: 0rem;
-                }
-  
-                color: $paragraphs-text-color;
-  
-                @media (min-width: 600px) {
-                  border: none;
-                }
-              }
-            }
-          }
-          
-  
-  
-        }
-        a {
-
-        }
+         
 
 
 
@@ -310,7 +262,7 @@ html {
 
       footer {
         p {
-          color: $paragraphs-text-color;
+          color: $text-color;
           margin: 3rem;
         }
       }
