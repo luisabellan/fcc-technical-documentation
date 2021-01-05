@@ -183,7 +183,7 @@ p.margin-right-1 {
         display: block;
         justify-content:center;
         
-        margin-bottom: 15rem;
+        padding-bottom: 5rem;
         header {
           h1.smaller-text{
             font-size: 1.5rem;
@@ -198,21 +198,27 @@ p.margin-right-1 {
             span {}
           }
 
-          #navbarCollapse {
             nav {
+              @media (min-width:768px) {
+                
+                position:fixed;
+              }
+           
               header {
                 a {}
               }
             }
-          }
         }
 
       }
     }
 
     main#main-doc {
+      
       section {
         margin-top: 3rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
         h3{
           margin-top: 2rem;
         }

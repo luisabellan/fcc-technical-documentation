@@ -167,15 +167,23 @@ html body .wrapper div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 15rem;
+  padding-bottom: 5rem;
 }
 
 html body .wrapper div header h1.smaller-text {
   font-size: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  html body .wrapper div header nav {
+    position: fixed;
+  }
+}
+
 html body main#main-doc section {
   margin-top: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 html body main#main-doc section h3 {
