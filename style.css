@@ -154,88 +154,39 @@ html body {
   overflow-x: hidden;
 }
 
-html body .wrapper nav header h1 {
-  font-size: 3rem;
+html body code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
 }
 
-html body .wrapper nav header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-item-align: center;
-      align-self: center;
+html body .wrapper div {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15rem;
 }
 
-@media (min-width: 600px) {
-  html body .wrapper nav header nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
+html body .wrapper div header h1.smaller-text {
+  font-size: 1.5rem;
 }
 
-html body .wrapper nav header nav .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100vh;
+html body main#main-doc section {
+  margin-top: 3rem;
 }
 
-@media (min-width: 600px) {
-  html body .wrapper nav header nav .links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: 11vh;
-    border: none;
-  }
+html body main#main-doc section h3 {
+  margin-top: 2rem;
 }
 
-html body .wrapper nav header nav .links a {
-  padding: 0.5rem;
-  margin: 1rem;
-  text-decoration: none;
-  font-family: "Exo 2", sans-serif;
-  font-size: 1.3rem;
-  color: #1e4986;
+html body main#main-doc section p {
+  line-height: 1.5rem;
 }
 
-@media (min-width: 500px) {
-  html body .wrapper nav header nav .links a {
-    font-size: 1.6rem;
-  }
-}
-
-@media (min-width: 800px) {
-  html body .wrapper nav header nav .links a {
-    font-size: 2rem;
-    margin-top: 0rem;
-  }
-}
-
-@media (min-width: 600px) {
-  html body .wrapper nav header nav .links a {
-    border: none;
-  }
-}
-
-html body .wrapper footer p {
+html body footer p {
   color: #1e4986;
   margin: 3rem;
 }

@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -157,116 +163,134 @@ font-family: 'Exo 2', sans-serif;  */
 html {
   //soft reset 2/2
   box-sizing: border-box;
+
   body {
     overflow-x: hidden;
+    code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+p.margin-right-1 {
+  
+}
     .wrapper {
-      
-      nav {
+       
+
+      div {
+        display: block;
+        justify-content:center;
+        
+        margin-bottom: 15rem;
         header {
-          
-  
-  
-          h1 {
-            font-size: 3rem;
-             
-          }
-  
-         
-
-
-
-      }
-
-      main#main-doc {
-        section#Basics {
-          header {
-            h2 {
-
-            }
-          }
-          ul {
-            li {
-
-            }
-            code {
-
-            }
+          h1.smaller-text{
+            font-size: 1.5rem;
           }
 
-        }
 
-        section#Comments {
-          header {
-            h2 {
-
-            }
-          }
-          code {
-
-          }
-          p {
-
-          }
-        }
-
-        section#Declarations {
-          header {
-            h3 {
-
-            }
-          }
-          p {
-
-          }
-          code {
-
-          }
-        }
-
-        section#Data_structures_and_types {
-          header {
-            h2 {
-
-            }
-          }
-          p {
-            
-          }
-          h3 {
-
-          }
-          code {
-
+          a {
+            img {}
           }
 
-        }
-
-        section#literals {
-          header {
-            h2 {
-
-            }
+          button {
+            span {}
           }
-        }
 
-        section#More_information {
-          header {
-            h2 {
-              
+          #navbarCollapse {
+            nav {
+              header {
+                a {}
+              }
             }
           }
         }
 
       }
-    
+    }
 
-      footer {
-        p {
-          color: $text-color;
-          margin: 3rem;
+    main#main-doc {
+      section {
+        margin-top: 3rem;
+        h3{
+          margin-top: 2rem;
         }
+        p{
+          line-height: 1.5rem;
+        }
+       
+      }
+      section#Basics {
+        header {
+          h2 {}
+        }
+
+        ul {
+          li {
+            p {}
+
+            code {}
+
+          }
+
+
+
+        }
+
+      }
+
+      section#Comments {
+        header {
+          h2 {}
+        }
+
+        code {}
+
+        p {}
+      }
+
+      section#Declarations {
+        header {
+          h3 {}
+        }
+
+        p {}
+
+        code {}
+      }
+
+      section#Data_structures_and_types {
+        header {
+          h2 {}
+        }
+
+        p {}
+
+        h3 {}
+
+        code {}
+
+      }
+
+      section#literals {
+        header {
+          h2 {}
+        }
+      }
+
+   
+
+    }
+
+
+    footer {
+      p {
+        color: $text-color;
+        margin: 3rem;
       }
     }
   }
 }
+
 
